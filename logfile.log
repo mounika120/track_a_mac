@@ -1,0 +1,77 @@
+commit 7b0dd73914eb4e8c8fcd3249b946edcb28dc691c
+Author: mounika120 <mounikapolisetti97@gmail.com>
+Date:   Sun May 31 22:10:49 2020 +0200
+
+    search
+
+commit cab8bc7d70f224c6c87769041d57e238b4d4858c
+Author: mounika120 <mounikapolisetti97@gmail.com>
+Date:   Sun May 31 22:10:20 2020 +0200
+
+    remove device
+
+commit 55e6e4ec1a63bc3018fb5d95abf1edfef8e42c8e
+Author: mounika120 <mounikapolisetti97@gmail.com>
+Date:   Sun May 31 22:09:20 2020 +0200
+
+    list devs
+
+commit f68561ce38f4fcc1f09e1b53c547fd020fab85e1
+Author: mounika120 <mounikapolisetti97@gmail.com>
+Date:   Sun May 31 22:07:57 2020 +0200
+
+    list
+
+commit d12b67817ca784fbd33f762799fc97da5d1290c9
+Author: mounika120 <mounikapolisetti97@gmail.com>
+Date:   Sun May 31 22:07:29 2020 +0200
+
+    config
+
+commit 92d9df9a8d6bf24eacfe9ae5b7188d2342c5e9a0
+Author: mounika120 <mounikapolisetti97@gmail.com>
+Date:   Sun May 31 22:06:20 2020 +0200
+
+    backend
+
+commit 9eac2713cad0dee217d9a5b6dacd950d485ad5c7
+Author: mounika120 <mounikapolisetti97@gmail.com>
+Date:   Sun May 31 22:05:28 2020 +0200
+
+    add device
+
+commit 99dca0f7d661d18d6a5a40e08aabd47259c56a86
+Author: mounika120 <64479944+mounika120@users.noreply.github.com>
+Date:   Sun May 31 15:12:53 2020 +0200
+
+    Create README.md
+
+commit bca925339f9d720cc01e5aa48cc1af19afb736a3
+Author: mounika120 <mounikapolisetti97@gmail.com>
+Date:   Tue May 12 02:42:26 2020 +0200
+
+    added search
+
+commit 602cd19e05b978c6960fc6a37fe786a28156eca0
+Author: mounika120 <mounikapolisetti97@gmail.com>
+Date:   Tue May 12 02:37:04 2020 +0200
+
+    added remove
+
+commit 93e4820849fa88299b2e688da87b6a93e50b3b29
+Author: mounika120 <mounikapolisetti97@gmail.com>
+Date:   Tue May 12 02:36:17 2020 +0200
+
+    added listdevs
+
+commit 527614391df8473a552a8cc67649b9d0f2e78278
+Author: mounika120 <mounikapolisetti97@gmail.com>
+Date:   Tue May 12 02:28:12 2020 +0200
+
+    new commits
+
+commit 04b826bc76c4c8ccfc8a4ee7a5bf4e67fefd126e
+Author: mounika120 <mounikapolisetti97@gmail.com>
+Date:   Mon May 4 23:07:54 2020 +0200
+
+    first commit on adddevice
