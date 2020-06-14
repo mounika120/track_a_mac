@@ -20,8 +20,12 @@ To detect the connection port, the MAC number should be the only MAC on that por
 4. Running backend script:
     * `docker exec -it track-a-mac ./backend.py`
 5. Running snmp simulator
-    * `docker exec -it testuser@track-a-mac su testuser`
-    * Execute snmpsim `snmpsim-command-responder --data-dir=./data --agent-udpv4-endpoint=127.0.0.1:1024`
+    * `docker exec -it testuser@track-a-mac bash`
+    * `source venv/bin/activate`
+    * `pip install snmpsim`
+    * `su testuser` switch user to testuser for running snmpsim
+    * `source venv/bin/activate`
+    * Execute snmpsim `snmpsimd.py --data-dir=./data --agent-udpv4-endpoint=127.0.0.1:1024`
     * testuser is created on the creation of container, so using test user to execute snmpsim-command-responder. testuser has to be created, 
     because of incapabilities of snmp to run as root.
 6. Pulling the ubuntu installed packages

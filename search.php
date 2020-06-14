@@ -12,7 +12,6 @@ EOF;
     $my_output_is = $db->query($sql);
     $data = array(); 
     while($row = $my_output_is->fetchArray(SQLITE3_ASSOC) ){
-         #echo $row[1]. "|" . $row[2] . "|" . $row[3] . "|" . $row[4] . "\n";
          $data[] = $row['IP']. " | " . $row['VLANs'] . " | " . $row['PORT'] . " | " . "$my_search_is";
      
     }

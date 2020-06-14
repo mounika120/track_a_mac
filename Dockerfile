@@ -20,6 +20,8 @@ RUN python3.6 -m pip install pip --upgrade
 RUN python3.6 -m pip install easysnmp
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 10
 RUN python3.6 -m pip install https://github.com/etingof/snmpsim/archive/master.zip
+RUN pip3 install virtualenv
+RUN virtualenv venv
 
 
 RUN useradd -ms /bin/bash testuser
