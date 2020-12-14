@@ -1,3 +1,4 @@
+
 <?php
 include_once('config.php');
 
@@ -19,4 +20,3 @@ while ($device_info = $result->fetchArray()) {
 $db->close();
 
 ?>
-
