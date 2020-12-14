@@ -10,10 +10,10 @@ else {
               SELECT * FROM List WHERE MACS LIKE "%$my_search_is%" ORDER BY MACS;
 EOF;
     $my_output_is = $db->query($sql);
-    $data = array(); 
+    $data = array();
     while($row = $my_output_is->fetchArray(SQLITE3_ASSOC) ){
          $data[] = $row['IP']. " | " . $row['VLANs'] . " | " . $row['PORT'] . " | " . "$my_search_is";
-     
+
     }
 
 $flag = count($data);
@@ -26,7 +26,7 @@ if($flag ==0){
 }
 
 $my_result_is = array_unique($data);
-$total = count($my_result_is);	
+$total = count($my_result_is);
 for($i = 0; $i < $total; $i++){
     echo $my_result_is[$i]. "\n";
     }
